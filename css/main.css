@@ -6,20 +6,47 @@ html, body{
 	height: 100%;
 }
 
+.text-center{
+	text-align: center;
+}
+
 .grid{
 	display: grid;
 	grid-template-columns: 10% 1fr 10%;
 }
 
-.canvas{
+.center{
 	display: grid;
 	grid-template-columns: 1fr;
+}
+
+.text{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.heading{
+	text-align: center;
+	background-color: #00009a;
+	color: #fff;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: #bdbdbd;
+	border: solid 1px black;
+}
+
+.content > p {
+	color: #000;
 }
 
 #canvas{
 	height: 100vh;
 	width: 100%;
 	display: block;
+	background-color: #007f00;
 }
 
 .left, .right{
